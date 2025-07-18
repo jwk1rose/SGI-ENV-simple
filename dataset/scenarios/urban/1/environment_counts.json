@@ -1,0 +1,22 @@
+{
+  "building": {
+    "residential_building": 5,
+    "power_station": 1,
+    "parking_lot": 1,
+    "hospital": 1,
+    "shopping_mall": 1,
+    "park": 1,
+    "robot_base": 1
+  },
+  "robot": {
+    "drone": 4,
+    "ground_vehicle": 2
+  },
+  "prop": {
+    "car": 1,
+    "truck": 1,
+    "cargo": 5,
+    "equipment_failure": 2,
+    "security_breach": 2
+  }
+}

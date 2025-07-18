@@ -1,0 +1,22 @@
+{
+  "type": "urban",
+  "scenario": "scenario_1",
+  "goal": {
+    "id": "g18",
+    "description": "检测 parking_lot 中的所有安全漏洞",
+    "target": {
+      "category": "prop",
+      "type": "security_breach",
+      "located_at": {
+        "category": "building",
+        "type": "parking_lot"
+      }
+    },
+    "success_condition": {
+      "field": "status",
+      "operator": "EQ",
+      "value": "discovered"
+    },
+    "quantifier": "FORALL"
+  }
+}

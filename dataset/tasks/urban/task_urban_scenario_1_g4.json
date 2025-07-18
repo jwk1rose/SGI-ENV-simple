@@ -1,0 +1,18 @@
+{
+  "type": "urban",
+  "scenario": "scenario_1",
+  "goal": {
+    "id": "g4",
+    "description": "对 power_station 进行故障检测",
+    "target": {
+      "category": "prop",
+      "type": "equipment_failure"
+    },
+    "success_condition": {
+      "field": "status",
+      "operator": "EQ",
+      "value": "discovered"
+    },
+    "quantifier": "EXISTS"
+  }
+}

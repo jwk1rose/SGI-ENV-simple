@@ -1,0 +1,18 @@
+{
+  "type": "urban",
+  "scenario": "scenario_4",
+  "goal": {
+    "id": "g9",
+    "description": "对 residential_building 进行外观拍照",
+    "target": {
+      "category": "building",
+      "type": "residential_building"
+    },
+    "success_condition": {
+      "field": "photo_captured",
+      "operator": "EQ",
+      "value": true
+    },
+    "quantifier": "EXISTS"
+  }
+}

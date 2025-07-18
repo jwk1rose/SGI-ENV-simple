@@ -1,0 +1,22 @@
+{
+  "type": "urban",
+  "scenario": "scenario_5",
+  "goal": {
+    "id": "g15",
+    "description": "对 residential_building 进行安全检查",
+    "target": {
+      "category": "prop",
+      "type": "security_breach",
+      "located_at": {
+        "category": "building",
+        "type": "residential_building"
+      }
+    },
+    "success_condition": {
+      "field": "status",
+      "operator": "EQ",
+      "value": "discovered"
+    },
+    "quantifier": "FORALL"
+  }
+}

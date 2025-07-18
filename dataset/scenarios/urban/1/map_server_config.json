@@ -1,0 +1,1308 @@
+{
+  "scene_config": {
+    "nodes": [
+      {
+        "id": 101,
+        "properties": {
+          "category": "building",
+          "type": "residential_building",
+          "size": [
+            80,
+            60
+          ],
+          "label": "Residential Building-1"
+        },
+        "shape": {
+          "type": "rectangle",
+          "min_corner": [
+            158.17689153893676,
+            3298.6806788802155
+          ],
+          "max_corner": [
+            238.17689153893676,
+            3358.6806788802155
+          ]
+        }
+      },
+      {
+        "id": 102,
+        "properties": {
+          "category": "building",
+          "type": "residential_building",
+          "size": [
+            80,
+            60
+          ],
+          "label": "Residential Building-2"
+        },
+        "shape": {
+          "type": "rectangle",
+          "min_corner": [
+            1312.9708637365397,
+            1969.0087965864343
+          ],
+          "max_corner": [
+            1392.9708637365397,
+            2029.0087965864343
+          ]
+        }
+      },
+      {
+        "id": 103,
+        "properties": {
+          "category": "building",
+          "type": "residential_building",
+          "size": [
+            80,
+            60
+          ],
+          "label": "Residential Building-3"
+        },
+        "shape": {
+          "type": "rectangle",
+          "min_corner": [
+            2221.759439486514,
+            1110.735658778131
+          ],
+          "max_corner": [
+            2301.759439486514,
+            1170.735658778131
+          ]
+        }
+      },
+      {
+        "id": 104,
+        "properties": {
+          "category": "building",
+          "type": "residential_building",
+          "size": [
+            80,
+            60
+          ],
+          "label": "Residential Building-4"
+        },
+        "shape": {
+          "type": "rectangle",
+          "min_corner": [
+            4642.774116178373,
+            1858.9407506605291
+          ],
+          "max_corner": [
+            4722.774116178373,
+            1918.9407506605291
+          ]
+        }
+      },
+      {
+        "id": 105,
+        "properties": {
+          "category": "building",
+          "type": "residential_building",
+          "size": [
+            80,
+            60
+          ],
+          "label": "Residential Building-5"
+        },
+        "shape": {
+          "type": "rectangle",
+          "min_corner": [
+            4740.448555282638,
+            1287.2755391738035
+          ],
+          "max_corner": [
+            4820.448555282638,
+            1347.2755391738035
+          ]
+        }
+      },
+      {
+        "id": 106,
+        "properties": {
+          "category": "building",
+          "type": "power_station",
+          "size": [
+            150,
+            200
+          ],
+          "label": "Power Station-1"
+        },
+        "shape": {
+          "type": "rectangle",
+          "min_corner": [
+            2428.465065697062,
+            273.1649899854904
+          ],
+          "max_corner": [
+            2578.465065697062,
+            473.1649899854904
+          ]
+        }
+      },
+      {
+        "id": 107,
+        "properties": {
+          "category": "building",
+          "type": "parking_lot",
+          "size": [
+            100,
+            100
+          ],
+          "label": "Parking Lot-1"
+        },
+        "shape": {
+          "type": "rectangle",
+          "min_corner": [
+            1122.3272730813167,
+            818.8765680564725
+          ],
+          "max_corner": [
+            1222.3272730813167,
+            918.8765680564725
+          ]
+        }
+      },
+      {
+        "id": 108,
+        "properties": {
+          "category": "building",
+          "type": "hospital",
+          "size": [
+            100,
+            150
+          ],
+          "label": "Hospital-1"
+        },
+        "shape": {
+          "type": "rectangle",
+          "min_corner": [
+            559.749289287003,
+            240.5014036303172
+          ],
+          "max_corner": [
+            659.749289287003,
+            390.5014036303172
+          ]
+        }
+      },
+      {
+        "id": 109,
+        "properties": {
+          "category": "building",
+          "type": "shopping_mall",
+          "size": [
+            200,
+            200
+          ],
+          "label": "Shopping Mall-1"
+        },
+        "shape": {
+          "type": "rectangle",
+          "min_corner": [
+            406.11985003953066,
+            1023.0138159012151
+          ],
+          "max_corner": [
+            606.1198500395307,
+            1223.0138159012151
+          ]
+        }
+      },
+      {
+        "id": 110,
+        "properties": {
+          "category": "building",
+          "type": "park",
+          "size": [
+            250,
+            250
+          ],
+          "label": "Park-1"
+        },
+        "shape": {
+          "type": "rectangle",
+          "min_corner": [
+            4548.627549276522,
+            73.66224181062411
+          ],
+          "max_corner": [
+            4798.627549276522,
+            323.6622418106241
+          ]
+        }
+      },
+      {
+        "id": 111,
+        "properties": {
+          "category": "building",
+          "type": "robot_base",
+          "size": [
+            120,
+            120
+          ],
+          "label": "Robot Base-1"
+        },
+        "shape": {
+          "type": "rectangle",
+          "min_corner": [
+            4696.203770877088,
+            3345.2985544933986
+          ],
+          "max_corner": [
+            4816.203770877088,
+            3465.2985544933986
+          ]
+        }
+      },
+      {
+        "id": 112,
+        "properties": {
+          "category": "robot",
+          "type": "drone",
+          "skills": [
+            "navigate",
+            "take_photo",
+            "identify_anomaly",
+            "load_object",
+            "unload_object",
+            "search_for_target",
+            "take_off"
+          ],
+          "max_speed_ms": 20,
+          "max_operational_time_min": 35,
+          "max_payload_kg": 3,
+          "shape_size": [
+            2,
+            2
+          ],
+          "status": "idle",
+          "label": "drone-1"
+        },
+        "shape": {
+          "type": "rectangle",
+          "min_corner": [
+            4762.873268306123,
+            3434.1871900989395
+          ],
+          "max_corner": [
+            4764.873268306123,
+            3436.1871900989395
+          ]
+        }
+      },
+      {
+        "id": 113,
+        "properties": {
+          "category": "robot",
+          "type": "drone",
+          "skills": [
+            "navigate",
+            "take_photo",
+            "identify_anomaly",
+            "load_object",
+            "unload_object",
+            "search_for_target",
+            "take_off"
+          ],
+          "max_speed_ms": 20,
+          "max_operational_time_min": 35,
+          "max_payload_kg": 3,
+          "shape_size": [
+            2,
+            2
+          ],
+          "status": "idle",
+          "label": "drone-2"
+        },
+        "shape": {
+          "type": "rectangle",
+          "min_corner": [
+            4802.967970479389,
+            3368.8363204794377
+          ],
+          "max_corner": [
+            4804.967970479389,
+            3370.8363204794377
+          ]
+        }
+      },
+      {
+        "id": 114,
+        "properties": {
+          "category": "robot",
+          "type": "drone",
+          "skills": [
+            "navigate",
+            "take_photo",
+            "identify_anomaly",
+            "load_object",
+            "unload_object",
+            "search_for_target",
+            "take_off"
+          ],
+          "max_speed_ms": 20,
+          "max_operational_time_min": 35,
+          "max_payload_kg": 3,
+          "shape_size": [
+            2,
+            2
+          ],
+          "status": "idle",
+          "label": "drone-3"
+        },
+        "shape": {
+          "type": "rectangle",
+          "min_corner": [
+            4766.131508857881,
+            3351.748224471396
+          ],
+          "max_corner": [
+            4768.131508857881,
+            3353.748224471396
+          ]
+        }
+      },
+      {
+        "id": 115,
+        "properties": {
+          "category": "robot",
+          "type": "drone",
+          "skills": [
+            "navigate",
+            "take_photo",
+            "identify_anomaly",
+            "load_object",
+            "unload_object",
+            "search_for_target",
+            "take_off"
+          ],
+          "max_speed_ms": 20,
+          "max_operational_time_min": 35,
+          "max_payload_kg": 3,
+          "shape_size": [
+            2,
+            2
+          ],
+          "status": "idle",
+          "label": "drone-4"
+        },
+        "shape": {
+          "type": "rectangle",
+          "min_corner": [
+            4741.17162364318,
+            3459.2391157435304
+          ],
+          "max_corner": [
+            4743.17162364318,
+            3461.2391157435304
+          ]
+        }
+      },
+      {
+        "id": 116,
+        "properties": {
+          "category": "robot",
+          "type": "ground_vehicle",
+          "skills": [
+            "navigate",
+            "take_photo",
+            "identify_anomaly",
+            "load_object",
+            "unload_object",
+            "search_for_target"
+          ],
+          "max_speed_ms": 5,
+          "max_operational_time_min": 540,
+          "max_payload_kg": 150,
+          "shape_size": [
+            3,
+            5
+          ],
+          "status": "idle",
+          "label": "ground_vehicle-1"
+        },
+        "shape": {
+          "type": "rectangle",
+          "min_corner": [
+            4751.154768621038,
+            3398.186554135169
+          ],
+          "max_corner": [
+            4754.154768621038,
+            3403.186554135169
+          ]
+        }
+      },
+      {
+        "id": 117,
+        "properties": {
+          "category": "robot",
+          "type": "ground_vehicle",
+          "skills": [
+            "navigate",
+            "take_photo",
+            "identify_anomaly",
+            "load_object",
+            "unload_object",
+            "search_for_target"
+          ],
+          "max_speed_ms": 5,
+          "max_operational_time_min": 540,
+          "max_payload_kg": 150,
+          "shape_size": [
+            3,
+            5
+          ],
+          "status": "idle",
+          "label": "ground_vehicle-2"
+        },
+        "shape": {
+          "type": "rectangle",
+          "min_corner": [
+            4723.753066093072,
+            3400.198164853719
+          ],
+          "max_corner": [
+            4726.753066093072,
+            3405.198164853719
+          ]
+        }
+      },
+      {
+        "id": 118,
+        "properties": {
+          "category": "prop",
+          "type": "car",
+          "license_plate": "F-8154",
+          "shape_size": [
+            2,
+            4
+          ],
+          "status": "parked",
+          "label": "car-F-8154"
+        },
+        "shape": {
+          "type": "rectangle",
+          "min_corner": [
+            1203.5364775203716,
+            839.251453165711
+          ],
+          "max_corner": [
+            1205.5364775203716,
+            843.251453165711
+          ]
+        }
+      },
+      {
+        "id": 119,
+        "properties": {
+          "category": "prop",
+          "type": "truck",
+          "license_plate": "F-4551",
+          "shape_size": [
+            3,
+            8
+          ],
+          "status": "parked",
+          "label": "truck-F-4551"
+        },
+        "shape": {
+          "type": "rectangle",
+          "min_corner": [
+            1166.5086915089673,
+            899.4376102005878
+          ],
+          "max_corner": [
+            1169.5086915089673,
+            907.4376102005878
+          ]
+        }
+      },
+      {
+        "id": 120,
+        "properties": {
+          "category": "prop",
+          "type": "cargo",
+          "weight_kg": 36.18,
+          "shape_size": [
+            1,
+            1
+          ],
+          "status": "waiting_pickup",
+          "label": "Cargo-1"
+        },
+        "shape": {
+          "type": "rectangle",
+          "min_corner": [
+            1322.391143657516,
+            1971.530640477814
+          ],
+          "max_corner": [
+            1323.391143657516,
+            1972.530640477814
+          ]
+        }
+      },
+      {
+        "id": 121,
+        "properties": {
+          "category": "prop",
+          "type": "cargo",
+          "weight_kg": 30.92,
+          "shape_size": [
+            1,
+            1
+          ],
+          "status": "waiting_pickup",
+          "label": "Cargo-2"
+        },
+        "shape": {
+          "type": "rectangle",
+          "min_corner": [
+            171.94898053817906,
+            3320.665142830518
+          ],
+          "max_corner": [
+            172.94898053817906,
+            3321.665142830518
+          ]
+        }
+      },
+      {
+        "id": 122,
+        "properties": {
+          "category": "prop",
+          "type": "cargo",
+          "weight_kg": 18.51,
+          "shape_size": [
+            1,
+            1
+          ],
+          "status": "waiting_pickup",
+          "label": "Cargo-3"
+        },
+        "shape": {
+          "type": "rectangle",
+          "min_corner": [
+            4755.37432309029,
+            1342.37104536597
+          ],
+          "max_corner": [
+            4756.37432309029,
+            1343.37104536597
+          ]
+        }
+      },
+      {
+        "id": 123,
+        "properties": {
+          "category": "prop",
+          "type": "cargo",
+          "weight_kg": 11.41,
+          "shape_size": [
+            1,
+            1
+          ],
+          "status": "waiting_pickup",
+          "label": "Cargo-4"
+        },
+        "shape": {
+          "type": "rectangle",
+          "min_corner": [
+            220.36512934233716,
+            3348.6093577496763
+          ],
+          "max_corner": [
+            221.36512934233716,
+            3349.6093577496763
+          ]
+        }
+      },
+      {
+        "id": 124,
+        "properties": {
+          "category": "prop",
+          "type": "cargo",
+          "weight_kg": 46.71,
+          "shape_size": [
+            1,
+            1
+          ],
+          "status": "waiting_pickup",
+          "label": "Cargo-5"
+        },
+        "shape": {
+          "type": "rectangle",
+          "min_corner": [
+            4809.587838384659,
+            1320.6884188314798
+          ],
+          "max_corner": [
+            4810.587838384659,
+            1321.6884188314798
+          ]
+        }
+      },
+      {
+        "id": 125,
+        "properties": {
+          "category": "prop",
+          "type": "equipment_failure",
+          "status": "undiscovered",
+          "label": "Equipment Failure-125"
+        },
+        "shape": null
+      },
+      {
+        "id": 126,
+        "properties": {
+          "category": "prop",
+          "type": "equipment_failure",
+          "status": "undiscovered",
+          "label": "Equipment Failure-126"
+        },
+        "shape": null
+      },
+      {
+        "id": 127,
+        "properties": {
+          "category": "prop",
+          "type": "security_breach",
+          "status": "undiscovered",
+          "label": "Security Breach-127"
+        },
+        "shape": null
+      },
+      {
+        "id": 128,
+        "properties": {
+          "category": "prop",
+          "type": "security_breach",
+          "status": "undiscovered",
+          "label": "Security Breach-128"
+        },
+        "shape": null
+      }
+    ],
+    "edges": [
+      {
+        "source": 112,
+        "target": 111,
+        "type": "stationed_at"
+      },
+      {
+        "source": 113,
+        "target": 111,
+        "type": "stationed_at"
+      },
+      {
+        "source": 114,
+        "target": 111,
+        "type": "stationed_at"
+      },
+      {
+        "source": 115,
+        "target": 111,
+        "type": "stationed_at"
+      },
+      {
+        "source": 116,
+        "target": 111,
+        "type": "stationed_at"
+      },
+      {
+        "source": 117,
+        "target": 111,
+        "type": "stationed_at"
+      },
+      {
+        "source": 118,
+        "target": 107,
+        "type": "parked_at"
+      },
+      {
+        "source": 119,
+        "target": 107,
+        "type": "parked_at"
+      },
+      {
+        "source": 120,
+        "target": 102,
+        "type": "stored_at"
+      },
+      {
+        "source": 121,
+        "target": 101,
+        "type": "stored_at"
+      },
+      {
+        "source": 122,
+        "target": 105,
+        "type": "stored_at"
+      },
+      {
+        "source": 123,
+        "target": 101,
+        "type": "stored_at"
+      },
+      {
+        "source": 124,
+        "target": 105,
+        "type": "stored_at"
+      },
+      {
+        "source": 125,
+        "target": 110,
+        "type": "located_at"
+      },
+      {
+        "source": 126,
+        "target": 107,
+        "type": "located_at"
+      },
+      {
+        "source": 127,
+        "target": 105,
+        "type": "located_at"
+      },
+      {
+        "source": 128,
+        "target": 108,
+        "type": "located_at"
+      },
+      {
+        "source": 101,
+        "target": 102,
+        "type": "reachable_from"
+      },
+      {
+        "source": 102,
+        "target": 101,
+        "type": "reachable_from"
+      },
+      {
+        "source": 102,
+        "target": 107,
+        "type": "reachable_from"
+      },
+      {
+        "source": 107,
+        "target": 102,
+        "type": "reachable_from"
+      },
+      {
+        "source": 103,
+        "target": 106,
+        "type": "reachable_from"
+      },
+      {
+        "source": 106,
+        "target": 103,
+        "type": "reachable_from"
+      },
+      {
+        "source": 103,
+        "target": 107,
+        "type": "reachable_from"
+      },
+      {
+        "source": 107,
+        "target": 103,
+        "type": "reachable_from"
+      },
+      {
+        "source": 104,
+        "target": 105,
+        "type": "reachable_from"
+      },
+      {
+        "source": 105,
+        "target": 104,
+        "type": "reachable_from"
+      },
+      {
+        "source": 104,
+        "target": 111,
+        "type": "reachable_from"
+      },
+      {
+        "source": 111,
+        "target": 104,
+        "type": "reachable_from"
+      },
+      {
+        "source": 105,
+        "target": 110,
+        "type": "reachable_from"
+      },
+      {
+        "source": 110,
+        "target": 105,
+        "type": "reachable_from"
+      },
+      {
+        "source": 106,
+        "target": 110,
+        "type": "reachable_from"
+      },
+      {
+        "source": 110,
+        "target": 106,
+        "type": "reachable_from"
+      },
+      {
+        "source": 107,
+        "target": 109,
+        "type": "reachable_from"
+      },
+      {
+        "source": 109,
+        "target": 107,
+        "type": "reachable_from"
+      },
+      {
+        "source": 107,
+        "target": 108,
+        "type": "reachable_from"
+      },
+      {
+        "source": 108,
+        "target": 107,
+        "type": "reachable_from"
+      }
+    ]
+  },
+  "gridmap_config": {
+    "resolution": 1.0,
+    "bounds": {
+      "x_min": 0,
+      "x_max": 5000,
+      "y_min": 0,
+      "y_max": 5000
+    },
+    "layers_config": {
+      "static": {
+        "initial_value": 0,
+        "dtype": "uint8"
+      },
+      "dynamic": {
+        "initial_value": 0,
+        "dtype": "uint8"
+      },
+      "semantic": {
+        "initial_value": 0,
+        "dtype": "uint32"
+      }
+    },
+    "initial_objects": [
+      {
+        "obj_id": 101,
+        "parts_shapes": {
+          "body": {
+            "type": "rectangle",
+            "min_corner": [
+              158.17689153893676,
+              3298.6806788802155
+            ],
+            "max_corner": [
+              238.17689153893676,
+              3358.6806788802155
+            ]
+          }
+        },
+        "layer_type": "static"
+      },
+      {
+        "obj_id": 102,
+        "parts_shapes": {
+          "body": {
+            "type": "rectangle",
+            "min_corner": [
+              1312.9708637365397,
+              1969.0087965864343
+            ],
+            "max_corner": [
+              1392.9708637365397,
+              2029.0087965864343
+            ]
+          }
+        },
+        "layer_type": "static"
+      },
+      {
+        "obj_id": 103,
+        "parts_shapes": {
+          "body": {
+            "type": "rectangle",
+            "min_corner": [
+              2221.759439486514,
+              1110.735658778131
+            ],
+            "max_corner": [
+              2301.759439486514,
+              1170.735658778131
+            ]
+          }
+        },
+        "layer_type": "static"
+      },
+      {
+        "obj_id": 104,
+        "parts_shapes": {
+          "body": {
+            "type": "rectangle",
+            "min_corner": [
+              4642.774116178373,
+              1858.9407506605291
+            ],
+            "max_corner": [
+              4722.774116178373,
+              1918.9407506605291
+            ]
+          }
+        },
+        "layer_type": "static"
+      },
+      {
+        "obj_id": 105,
+        "parts_shapes": {
+          "body": {
+            "type": "rectangle",
+            "min_corner": [
+              4740.448555282638,
+              1287.2755391738035
+            ],
+            "max_corner": [
+              4820.448555282638,
+              1347.2755391738035
+            ]
+          }
+        },
+        "layer_type": "static"
+      },
+      {
+        "obj_id": 106,
+        "parts_shapes": {
+          "body": {
+            "type": "rectangle",
+            "min_corner": [
+              2428.465065697062,
+              273.1649899854904
+            ],
+            "max_corner": [
+              2578.465065697062,
+              473.1649899854904
+            ]
+          }
+        },
+        "layer_type": "static"
+      },
+      {
+        "obj_id": 107,
+        "parts_shapes": {
+          "body": {
+            "type": "rectangle",
+            "min_corner": [
+              1122.3272730813167,
+              818.8765680564725
+            ],
+            "max_corner": [
+              1222.3272730813167,
+              918.8765680564725
+            ]
+          }
+        },
+        "layer_type": "static"
+      },
+      {
+        "obj_id": 108,
+        "parts_shapes": {
+          "body": {
+            "type": "rectangle",
+            "min_corner": [
+              559.749289287003,
+              240.5014036303172
+            ],
+            "max_corner": [
+              659.749289287003,
+              390.5014036303172
+            ]
+          }
+        },
+        "layer_type": "static"
+      },
+      {
+        "obj_id": 109,
+        "parts_shapes": {
+          "body": {
+            "type": "rectangle",
+            "min_corner": [
+              406.11985003953066,
+              1023.0138159012151
+            ],
+            "max_corner": [
+              606.1198500395307,
+              1223.0138159012151
+            ]
+          }
+        },
+        "layer_type": "static"
+      },
+      {
+        "obj_id": 110,
+        "parts_shapes": {
+          "body": {
+            "type": "rectangle",
+            "min_corner": [
+              4548.627549276522,
+              73.66224181062411
+            ],
+            "max_corner": [
+              4798.627549276522,
+              323.6622418106241
+            ]
+          }
+        },
+        "layer_type": "static"
+      },
+      {
+        "obj_id": 111,
+        "parts_shapes": {
+          "body": {
+            "type": "rectangle",
+            "min_corner": [
+              4696.203770877088,
+              3345.2985544933986
+            ],
+            "max_corner": [
+              4816.203770877088,
+              3465.2985544933986
+            ]
+          }
+        },
+        "layer_type": "static"
+      },
+      {
+        "obj_id": 112,
+        "parts_shapes": {
+          "body": {
+            "type": "rectangle",
+            "min_corner": [
+              4762.873268306123,
+              3434.1871900989395
+            ],
+            "max_corner": [
+              4764.873268306123,
+              3436.1871900989395
+            ]
+          }
+        },
+        "layer_type": "dynamic"
+      },
+      {
+        "obj_id": 113,
+        "parts_shapes": {
+          "body": {
+            "type": "rectangle",
+            "min_corner": [
+              4802.967970479389,
+              3368.8363204794377
+            ],
+            "max_corner": [
+              4804.967970479389,
+              3370.8363204794377
+            ]
+          }
+        },
+        "layer_type": "dynamic"
+      },
+      {
+        "obj_id": 114,
+        "parts_shapes": {
+          "body": {
+            "type": "rectangle",
+            "min_corner": [
+              4766.131508857881,
+              3351.748224471396
+            ],
+            "max_corner": [
+              4768.131508857881,
+              3353.748224471396
+            ]
+          }
+        },
+        "layer_type": "dynamic"
+      },
+      {
+        "obj_id": 115,
+        "parts_shapes": {
+          "body": {
+            "type": "rectangle",
+            "min_corner": [
+              4741.17162364318,
+              3459.2391157435304
+            ],
+            "max_corner": [
+              4743.17162364318,
+              3461.2391157435304
+            ]
+          }
+        },
+        "layer_type": "dynamic"
+      },
+      {
+        "obj_id": 116,
+        "parts_shapes": {
+          "body": {
+            "type": "rectangle",
+            "min_corner": [
+              4751.154768621038,
+              3398.186554135169
+            ],
+            "max_corner": [
+              4754.154768621038,
+              3403.186554135169
+            ]
+          }
+        },
+        "layer_type": "dynamic"
+      },
+      {
+        "obj_id": 117,
+        "parts_shapes": {
+          "body": {
+            "type": "rectangle",
+            "min_corner": [
+              4723.753066093072,
+              3400.198164853719
+            ],
+            "max_corner": [
+              4726.753066093072,
+              3405.198164853719
+            ]
+          }
+        },
+        "layer_type": "dynamic"
+      },
+      {
+        "obj_id": 118,
+        "parts_shapes": {
+          "body": {
+            "type": "rectangle",
+            "min_corner": [
+              1203.5364775203716,
+              839.251453165711
+            ],
+            "max_corner": [
+              1205.5364775203716,
+              843.251453165711
+            ]
+          }
+        },
+        "layer_type": "dynamic"
+      },
+      {
+        "obj_id": 119,
+        "parts_shapes": {
+          "body": {
+            "type": "rectangle",
+            "min_corner": [
+              1166.5086915089673,
+              899.4376102005878
+            ],
+            "max_corner": [
+              1169.5086915089673,
+              907.4376102005878
+            ]
+          }
+        },
+        "layer_type": "dynamic"
+      },
+      {
+        "obj_id": 120,
+        "parts_shapes": {
+          "body": {
+            "type": "rectangle",
+            "min_corner": [
+              1322.391143657516,
+              1971.530640477814
+            ],
+            "max_corner": [
+              1323.391143657516,
+              1972.530640477814
+            ]
+          }
+        },
+        "layer_type": "dynamic"
+      },
+      {
+        "obj_id": 121,
+        "parts_shapes": {
+          "body": {
+            "type": "rectangle",
+            "min_corner": [
+              171.94898053817906,
+              3320.665142830518
+            ],
+            "max_corner": [
+              172.94898053817906,
+              3321.665142830518
+            ]
+          }
+        },
+        "layer_type": "dynamic"
+      },
+      {
+        "obj_id": 122,
+        "parts_shapes": {
+          "body": {
+            "type": "rectangle",
+            "min_corner": [
+              4755.37432309029,
+              1342.37104536597
+            ],
+            "max_corner": [
+              4756.37432309029,
+              1343.37104536597
+            ]
+          }
+        },
+        "layer_type": "dynamic"
+      },
+      {
+        "obj_id": 123,
+        "parts_shapes": {
+          "body": {
+            "type": "rectangle",
+            "min_corner": [
+              220.36512934233716,
+              3348.6093577496763
+            ],
+            "max_corner": [
+              221.36512934233716,
+              3349.6093577496763
+            ]
+          }
+        },
+        "layer_type": "dynamic"
+      },
+      {
+        "obj_id": 124,
+        "parts_shapes": {
+          "body": {
+            "type": "rectangle",
+            "min_corner": [
+              4809.587838384659,
+              1320.6884188314798
+            ],
+            "max_corner": [
+              4810.587838384659,
+              1321.6884188314798
+            ]
+          }
+        },
+        "layer_type": "dynamic"
+      }
+    ]
+  }
+}

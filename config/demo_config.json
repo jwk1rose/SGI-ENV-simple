@@ -1,0 +1,26 @@
+{
+  "system": {
+    "name": "SGI-TP Demo System",
+    "version": "1.0.0",
+    "debug": true,
+    "log_level": "INFO"
+  },
+  "event_bus": {
+    "queue_size": 1000,
+    "enable_history": true,
+    "max_history_size": 500
+  },
+  "hot_reload": {
+    "enabled": true,
+    "watch_patterns": ["*.py", "*.json", "*.yaml"],
+    "ignore_patterns": ["__pycache__", "*.pyc", ".git"],
+    "reload_delay": 1.0
+  },
+  "demo_settings": {
+    "feature_a": true,
+    "feature_b": false,
+    "max_connections": 100,
+    "timeout": 30,
+    "retry_count": 3
+  }
+}

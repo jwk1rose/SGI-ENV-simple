@@ -1,0 +1,22 @@
+{
+  "type": "urban",
+  "scenario": "scenario_1",
+  "goal": {
+    "id": "g13",
+    "description": "对 shopping_mall 上的安全漏洞进行拍照",
+    "target": {
+      "category": "prop",
+      "type": "security_breach",
+      "located_at": {
+        "category": "building",
+        "type": "shopping_mall"
+      }
+    },
+    "success_condition": {
+      "field": "photo_captured",
+      "operator": "EQ",
+      "value": true
+    },
+    "quantifier": "FORALL"
+  }
+}

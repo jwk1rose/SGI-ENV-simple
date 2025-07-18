@@ -1,0 +1,21 @@
+{
+  "type": "urban",
+  "scenario": "scenario_2",
+  "goal": {
+    "id": "g12",
+    "description": "将所有 cargo 运送到 parking_lot",
+    "target": {
+      "category": "prop",
+      "type": "cargo"
+    },
+    "success_condition": {
+      "field": "location",
+      "operator": "EQ",
+      "value": {
+        "category": "building",
+        "type": "parking_lot"
+      }
+    },
+    "quantifier": "FORALL"
+  }
+}

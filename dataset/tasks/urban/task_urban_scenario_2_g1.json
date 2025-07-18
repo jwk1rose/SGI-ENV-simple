@@ -1,0 +1,19 @@
+{
+  "type": "urban",
+  "scenario": "scenario_2",
+  "goal": {
+    "id": "g1",
+    "description": "找到车牌号为 00001 的小轿车",
+    "target": {
+      "category": "prop",
+      "type": "car",
+      "license_plate": "00001"
+    },
+    "success_condition": {
+      "field": "status",
+      "operator": "EQ",
+      "value": "discovered"
+    },
+    "quantifier": "EXISTS"
+  }
+}

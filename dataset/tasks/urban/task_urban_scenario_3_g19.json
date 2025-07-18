@@ -1,0 +1,18 @@
+{
+  "type": "urban",
+  "scenario": "scenario_3",
+  "goal": {
+    "id": "g19",
+    "description": "对 robot_base 进行拍照",
+    "target": {
+      "category": "building",
+      "type": "robot_base"
+    },
+    "success_condition": {
+      "field": "photo_captured",
+      "operator": "EQ",
+      "value": true
+    },
+    "quantifier": "EXISTS"
+  }
+}

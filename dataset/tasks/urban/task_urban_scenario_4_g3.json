@@ -1,0 +1,18 @@
+{
+  "type": "urban",
+  "scenario": "scenario_4",
+  "goal": {
+    "id": "g3",
+    "description": "对 hospital 进行航拍",
+    "target": {
+      "category": "building",
+      "type": "hospital"
+    },
+    "success_condition": {
+      "field": "photo_captured",
+      "operator": "EQ",
+      "value": true
+    },
+    "quantifier": "EXISTS"
+  }
+}

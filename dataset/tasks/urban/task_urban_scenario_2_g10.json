@@ -1,0 +1,22 @@
+{
+  "type": "urban",
+  "scenario": "scenario_2",
+  "goal": {
+    "id": "g10",
+    "description": "监测 hospital 的所有设备故障",
+    "target": {
+      "category": "prop",
+      "type": "equipment_failure",
+      "located_at": {
+        "category": "building",
+        "type": "hospital"
+      }
+    },
+    "success_condition": {
+      "field": "status",
+      "operator": "EQ",
+      "value": "discovered"
+    },
+    "quantifier": "FORALL"
+  }
+}

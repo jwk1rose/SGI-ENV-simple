@@ -1,0 +1,1549 @@
+[
+  {
+    "mission_request": "去那片灌木丛转转，看看有啥动静没。",
+    "available_uavs": [
+      "UAV-A2"
+    ],
+    "operational_area": {
+      "bounds": {
+        "lat_min": 23.03787,
+        "lat_max": 23.04994,
+        "lon_min": 114.22778,
+        "lon_max": 114.23985
+      }
+    }
+  },
+  {
+    "mission_request": "去村里转一圈，看看有没有啥异常情况。",
+    "available_uavs": [
+      "Alpha",
+      "Theta",
+      "Delta"
+    ],
+    "operational_area": {
+      "bounds": {
+        "lat_min": 30.62413,
+        "lat_max": 31.45488,
+        "lon_min": 114.04754,
+        "lon_max": 114.87829
+      }
+    }
+  },
+  {
+    "mission_request": "请立即对公园周边进行紧急安保巡逻。",
+    "available_uavs": [
+      "Theta"
+    ],
+    "operational_area": {
+      "bounds": {
+        "lat_min": 36.01442,
+        "lat_max": 36.17925,
+        "lon_min": 120.32223,
+        "lon_max": 120.48706
+      }
+    }
+  },
+  {
+    "mission_request": "赶紧去那片乡村看看有啥异常，越快越好！",
+    "available_uavs": [
+      "Raven",
+      "Hawk",
+      "Eagle"
+    ],
+    "operational_area": {
+      "bounds": {
+        "lat_min": 30.58698,
+        "lat_max": 30.60086,
+        "lon_min": 114.29988,
+        "lon_max": 114.31376
+      }
+    }
+  },
+  {
+    "mission_request": "去山丘那边检查一下建筑状况，尽快反馈。",
+    "available_uavs": [
+      "Echo",
+      "Hotel"
+    ],
+    "operational_area": {
+      "bounds": {
+        "lat_min": 29.28259,
+        "lat_max": 29.88801,
+        "lon_min": 106.30434,
+        "lon_max": 106.90976
+      }
+    }
+  },
+  {
+    "mission_request": "请求立即对港口周边建筑进行紧急巡检。",
+    "available_uavs": [
+      "Eta",
+      "Delta",
+      "Zeta"
+    ],
+    "operational_area": {
+      "bounds": {
+        "lat_min": 36.15988,
+        "lat_max": 36.70613,
+        "lon_min": 120.40435,
+        "lon_max": 120.9506
+      }
+    }
+  },
+  {
+    "mission_request": "去港口那边转一圈，看看有没有什么异常。",
+    "available_uavs": [
+      "UAV-A4",
+      "UAV-A8"
+    ],
+    "operational_area": {
+      "bounds": {
+        "lat_min": 29.56021,
+        "lat_max": 29.67889,
+        "lon_min": 106.52563,
+        "lon_max": 106.64431
+      }
+    }
+  },
+  {
+    "mission_request": "去那片灌木丛转转，看看有没有什么异常。",
+    "available_uavs": [
+      "Alpha",
+      "Zeta",
+      "Beta"
+    ],
+    "operational_area": {
+      "bounds": {
+        "lat_min": 34.33804,
+        "lat_max": 34.34613,
+        "lon_min": 108.94135,
+        "lon_max": 108.94944
+      }
+    }
+  },
+  {
+    "mission_request": "去那片区域找找电塔在哪，尽快确认位置。",
+    "available_uavs": [
+      "UAV-A6",
+      "UAV-A1",
+      "UAV-A4"
+    ],
+    "operational_area": {
+      "bounds": {
+        "lat_min": 30.60879,
+        "lat_max": 30.8286,
+        "lon_min": 114.1968,
+        "lon_max": 114.41661
+      }
+    }
+  },
+  {
+    "mission_request": "请求立即对树林区域进行实时热成像监控，识别异常热点。",
+    "available_uavs": [
+      "Owl",
+      "Raven",
+      "Hawk"
+    ],
+    "operational_area": {
+      "bounds": {
+        "lat_min": 36.07663,
+        "lat_max": 36.11259,
+        "lon_min": 120.39629,
+        "lon_max": 120.43225
+      }
+    }
+  },
+  {
+    "mission_request": "派几架无人机去变电站周边转转，看看有没有啥异常情况，顺便把地形也扫一遍。",
+    "available_uavs": [
+      "Alpha",
+      "Golf"
+    ],
+    "operational_area": {
+      "bounds": {
+        "lat_min": 34.01413,
+        "lat_max": 34.99296,
+        "lon_min": 109.39868,
+        "lon_max": 110.37751
+      }
+    }
+  },
+  {
+    "mission_request": "去港口那边转一圈，看看有没有什么异常情况。",
+    "available_uavs": [
+      "Scout-02",
+      "Scout-03",
+      "Scout-07",
+      "Scout-08",
+      "Scout-04"
+    ],
+    "operational_area": {
+      "bounds": {
+        "lat_min": 23.03266,
+        "lat_max": 23.05657,
+        "lon_min": 114.22294,
+        "lon_max": 114.24685
+      }
+    }
+  },
+  {
+    "mission_request": "去办公楼那边转一圈，看看有没有什么异常。",
+    "available_uavs": [
+      "雪鸮",
+      "铁隼"
+    ],
+    "operational_area": {
+      "bounds": {
+        "lat_min": 34.68029,
+        "lat_max": 35.39925,
+        "lon_min": 109.18252,
+        "lon_max": 109.90148
+      }
+    }
+  },
+  {
+    "mission_request": "去那片灌木丛转转，看看有没有什么异常，尽快反馈情况。",
+    "available_uavs": [
+      "Hotel",
+      "Delta",
+      "Foxtrot"
+    ],
+    "operational_area": {
+      "bounds": {
+        "lat_min": 22.97851,
+        "lat_max": 23.23746,
+        "lon_min": 114.14012,
+        "lon_max": 114.39907
+      }
+    }
+  },
+  {
+    "mission_request": "请求对目标办公楼周边区域实施周期性空中监视。",
+    "available_uavs": [
+      "Phoenix",
+      "Falcon"
+    ],
+    "operational_area": {
+      "bounds": {
+        "lat_min": 39.99594,
+        "lat_max": 40.2959,
+        "lon_min": 116.38088,
+        "lon_max": 116.68084
+      }
+    }
+  },
+  {
+    "mission_request": "派几架无人机去目标地带扫一圈，重点排查工厂位置和周边动静，有发现随时汇报。",
+    "available_uavs": [
+      "铁隼",
+      "金鹰",
+      "雪鸮"
+    ],
+    "operational_area": {
+      "bounds": {
+        "lat_min": 34.11534,
+        "lat_max": 35.02851,
+        "lon_min": 109.33682,
+        "lon_max": 110.24999
+      }
+    }
+  },
+  {
+    "mission_request": "请求对工厂周边进行安全巡查作业",
+    "available_uavs": [
+      "UAV-A1",
+      "UAV-A2"
+    ],
+    "operational_area": {
+      "bounds": {
+        "lat_min": 29.56381,
+        "lat_max": 29.56548,
+        "lon_min": 106.55159,
+        "lon_max": 106.55326
+      }
+    }
+  },
+  {
+    "mission_request": "派几架无人机去机场附近转转，看看有没有什么异常。",
+    "available_uavs": [
+      "UAV-A8",
+      "UAV-A7",
+      "UAV-A4",
+      "UAV-A5"
+    ],
+    "operational_area": {
+      "bounds": {
+        "lat_min": 29.34813,
+        "lat_max": 30.00437,
+        "lon_min": 106.3069,
+        "lon_max": 106.96314
+      }
+    }
+  },
+  {
+    "mission_request": "请求对目标区域树林进行常规监视作业。",
+    "available_uavs": [
+      "Scout-05"
+    ],
+    "operational_area": {
+      "bounds": {
+        "lat_min": 39.91527,
+        "lat_max": 39.95477,
+        "lon_min": 116.39007,
+        "lon_max": 116.42957
+      }
+    }
+  },
+  {
+    "mission_request": "赶紧派无人机去电塔那边转一圈，看看有没有问题。",
+    "available_uavs": [
+      "Falcon",
+      "Phoenix",
+      "Raven"
+    ],
+    "operational_area": {
+      "bounds": {
+        "lat_min": 39.63576,
+        "lat_max": 40.62325,
+        "lon_min": 116.67943,
+        "lon_max": 117.66692
+      }
+    }
+  },
+  {
+    "mission_request": "去山丘那边转一圈，看看有没有什么异常。",
+    "available_uavs": [
+      "云雀",
+      "银雁"
+    ],
+    "operational_area": {
+      "bounds": {
+        "lat_min": 31.2305,
+        "lat_max": 31.23268,
+        "lon_min": 121.47441,
+        "lon_max": 121.47659
+      }
+    }
+  },
+  {
+    "mission_request": "请求对乡村区域进行周期性空中巡查，重点监测异常活动与安全隐患。",
+    "available_uavs": [
+      "Eta",
+      "Gamma",
+      "Theta"
+    ],
+    "operational_area": {
+      "bounds": {
+        "lat_min": 30.8198,
+        "lat_max": 31.6698,
+        "lon_min": 121.73127,
+        "lon_max": 122.58127
+      }
+    }
+  },
+  {
+    "mission_request": "赶紧派无人机去机场边界转一圈，看看有没有可疑情况，越快越好！",
+    "available_uavs": [
+      "Theta",
+      "Epsilon"
+    ],
+    "operational_area": {
+      "bounds": {
+        "lat_min": 31.22996,
+        "lat_max": 31.2313,
+        "lon_min": 121.47384,
+        "lon_max": 121.47518
+      }
+    }
+  },
+  {
+    "mission_request": "赶紧飞几架无人机去办公楼那边转一圈，看看有没有啥异常。",
+    "available_uavs": [
+      "UAV-A7"
+    ],
+    "operational_area": {
+      "bounds": {
+        "lat_min": 23.08056,
+        "lat_max": 23.1898,
+        "lon_min": 114.18478,
+        "lon_max": 114.29402
+      }
+    }
+  },
+  {
+    "mission_request": "请求对山丘区域进行快速搜索作业。",
+    "available_uavs": [
+      "金鹰"
+    ],
+    "operational_area": {
+      "bounds": {
+        "lat_min": 39.9038,
+        "lat_max": 39.90567,
+        "lon_min": 116.40727,
+        "lon_max": 116.40914
+      }
+    }
+  },
+  {
+    "mission_request": "去那几个村子转一圈，看看有没有啥异常。",
+    "available_uavs": [
+      "Condor",
+      "Raven"
+    ],
+    "operational_area": {
+      "bounds": {
+        "lat_min": 22.79233,
+        "lat_max": 23.57975,
+        "lon_min": 114.20151,
+        "lon_max": 114.98893
+      }
+    }
+  },
+  {
+    "mission_request": "请求对港口周边建筑进行例行巡检作业",
+    "available_uavs": [
+      "Eta"
+    ],
+    "operational_area": {
+      "bounds": {
+        "lat_min": 30.64222,
+        "lat_max": 30.89414,
+        "lon_min": 114.28252,
+        "lon_max": 114.53444
+      }
+    }
+  },
+  {
+    "mission_request": "赶紧派无人机去机场周边转一圈，看看有没有可疑情况，快点！",
+    "available_uavs": [
+      "UAV-A6",
+      "UAV-A5"
+    ],
+    "operational_area": {
+      "bounds": {
+        "lat_min": 39.92521,
+        "lat_max": 39.97287,
+        "lon_min": 116.38643,
+        "lon_max": 116.43409
+      }
+    }
+  },
+  {
+    "mission_request": "派几架无人机去那片灌木丛转转，看看有没有可疑的东西。",
+    "available_uavs": [
+      "UAV-A4",
+      "UAV-A6"
+    ],
+    "operational_area": {
+      "bounds": {
+        "lat_min": 22.87389,
+        "lat_max": 23.43352,
+        "lon_min": 114.20429,
+        "lon_max": 114.76392
+      }
+    }
+  },
+  {
+    "mission_request": "去附近港口转转，看看有什么动静。",
+    "available_uavs": [
+      "Hawk",
+      "Eagle",
+      "Condor"
+    ],
+    "operational_area": {
+      "bounds": {
+        "lat_min": 34.3383,
+        "lat_max": 34.34637,
+        "lon_min": 108.93918,
+        "lon_max": 108.94725
+      }
+    }
+  },
+  {
+    "mission_request": "请求立即对机场区域进行紧急搜索作业。",
+    "available_uavs": [
+      "UAV-A4"
+    ],
+    "operational_area": {
+      "bounds": {
+        "lat_min": 39.90384,
+        "lat_max": 39.9065,
+        "lon_min": 116.40599,
+        "lon_max": 116.40865
+      }
+    }
+  },
+  {
+    "mission_request": "紧急请求对乡村周边区域进行实时监控巡查。",
+    "available_uavs": [
+      "雪鸮",
+      "银雁"
+    ],
+    "operational_area": {
+      "bounds": {
+        "lat_min": 22.5885,
+        "lat_max": 22.7178,
+        "lon_min": 114.09104,
+        "lon_max": 114.22034
+      }
+    }
+  },
+  {
+    "mission_request": "紧急请求对办公楼周边区域进行实时监控巡查。",
+    "available_uavs": [
+      "Swift",
+      "Hawk",
+      "Eagle"
+    ],
+    "operational_area": {
+      "bounds": {
+        "lat_min": 31.23109,
+        "lat_max": 31.23344,
+        "lon_min": 121.47476,
+        "lon_max": 121.47711
+      }
+    }
+  },
+  {
+    "mission_request": "请求对港口区域进行例行安全巡查",
+    "available_uavs": [
+      "Gamma",
+      "Delta"
+    ],
+    "operational_area": {
+      "bounds": {
+        "lat_min": 29.55665,
+        "lat_max": 29.57007,
+        "lon_min": 106.55355,
+        "lon_max": 106.56697
+      }
+    }
+  },
+  {
+    "mission_request": "赶紧派无人机去办公楼那边转一圈，看看有没有什么不对劲的地方，要快！",
+    "available_uavs": [
+      "Golf",
+      "Foxtrot"
+    ],
+    "operational_area": {
+      "bounds": {
+        "lat_min": 23.04951,
+        "lat_max": 23.21164,
+        "lon_min": 114.21083,
+        "lon_max": 114.37296
+      }
+    }
+  },
+  {
+    "mission_request": "紧急请求对目标办公楼进行全方位搜查与热源探测。",
+    "available_uavs": [
+      "Bravo",
+      "Alpha",
+      "Delta",
+      "Hotel"
+    ],
+    "operational_area": {
+      "bounds": {
+        "lat_min": 29.91406,
+        "lat_max": 30.87757,
+        "lon_min": 106.19476,
+        "lon_max": 107.15827
+      }
+    }
+  },
+  {
+    "mission_request": "请求对地带公园进行常规巡查观测。",
+    "available_uavs": [
+      "UAV-A4",
+      "UAV-A6",
+      "UAV-A8"
+    ],
+    "operational_area": {
+      "bounds": {
+        "lat_min": 36.17034,
+        "lat_max": 36.39698,
+        "lon_min": 120.34292,
+        "lon_max": 120.56956
+      }
+    }
+  },
+  {
+    "mission_request": "赶紧派无人机去变电站周围转一圈，看看有没有安全隐患。",
+    "available_uavs": [
+      "Golf",
+      "Bravo",
+      "Delta"
+    ],
+    "operational_area": {
+      "bounds": {
+        "lat_min": 23.03765,
+        "lat_max": 23.07715,
+        "lon_min": 114.21113,
+        "lon_max": 114.25063
+      }
+    }
+  },
+  {
+    "mission_request": "请求对边界巡逻地带的电塔进行安全巡检与异常监测。",
+    "available_uavs": [
+      "Swift",
+      "Falcon",
+      "Eagle",
+      "Raven",
+      "Condor"
+    ],
+    "operational_area": {
+      "bounds": {
+        "lat_min": 29.56193,
+        "lat_max": 29.56413,
+        "lon_min": 106.55021,
+        "lon_max": 106.55241
+      }
+    }
+  },
+  {
+    "mission_request": "派几架无人机去港口那边转转，看看有什么情况。",
+    "available_uavs": [
+      "Foxtrot",
+      "Hotel"
+    ],
+    "operational_area": {
+      "bounds": {
+        "lat_min": 30.58854,
+        "lat_max": 30.60248,
+        "lon_min": 114.304,
+        "lon_max": 114.31794
+      }
+    }
+  },
+  {
+    "mission_request": "去公园转一圈，看看有没有什么异常情况。",
+    "available_uavs": [
+      "Scout-08",
+      "Scout-03",
+      "Scout-07",
+      "Scout-02"
+    ],
+    "operational_area": {
+      "bounds": {
+        "lat_min": 39.90493,
+        "lat_max": 39.90752,
+        "lon_min": 116.40636,
+        "lon_max": 116.40895
+      }
+    }
+  },
+  {
+    "mission_request": "赶紧派无人机集群去那片灌木丛转转，仔细看看有没有异常动静，别漏掉任何细节。",
+    "available_uavs": [
+      "White-Snow",
+      "Yellow-Sun",
+      "Orange-Fire"
+    ],
+    "operational_area": {
+      "bounds": {
+        "lat_min": 39.92746,
+        "lat_max": 40.15536,
+        "lon_min": 116.32049,
+        "lon_max": 116.54839
+      }
+    }
+  },
+  {
+    "mission_request": "去变电站那边转一圈，看看设备有没有什么问题。",
+    "available_uavs": [
+      "Bravo"
+    ],
+    "operational_area": {
+      "bounds": {
+        "lat_min": 31.2217,
+        "lat_max": 31.24882,
+        "lon_min": 121.47135,
+        "lon_max": 121.49847
+      }
+    }
+  },
+  {
+    "mission_request": "赶紧派无人机去公园那边盯着，目标可能有动静，尽快反馈情况！",
+    "available_uavs": [
+      "Scout-03",
+      "Scout-04"
+    ],
+    "operational_area": {
+      "bounds": {
+        "lat_min": 29.56319,
+        "lat_max": 29.56446,
+        "lon_min": 106.55119,
+        "lon_max": 106.55246
+      }
+    }
+  },
+  {
+    "mission_request": "请求对建筑周边电塔进行例行巡检作业",
+    "available_uavs": [
+      "Epsilon"
+    ],
+    "operational_area": {
+      "bounds": {
+        "lat_min": 39.9729,
+        "lat_max": 40.15766,
+        "lon_min": 116.37154,
+        "lon_max": 116.5563
+      }
+    }
+  },
+  {
+    "mission_request": "紧急请求对设施片区乡村进行全方位异常检测与实时监控，确保安全隐患及时排查。",
+    "available_uavs": [
+      "Eagle",
+      "Phoenix",
+      "Swift"
+    ],
+    "operational_area": {
+      "bounds": {
+        "lat_min": 23.05071,
+        "lat_max": 23.08365,
+        "lon_min": 114.22971,
+        "lon_max": 114.26265
+      }
+    }
+  },
+  {
+    "mission_request": "请求对机场周边区域进行常规观察作业",
+    "available_uavs": [
+      "Gamma",
+      "Zeta"
+    ],
+    "operational_area": {
+      "bounds": {
+        "lat_min": 31.22931,
+        "lat_max": 31.23217,
+        "lon_min": 121.47365,
+        "lon_max": 121.47651
+      }
+    }
+  },
+  {
+    "mission_request": "请求立即对灌木丛区域展开紧急监控作业，识别异常活动并实时回传数据。",
+    "available_uavs": [
+      "Scout-02",
+      "Scout-05",
+      "Scout-06",
+      "Scout-07",
+      "Scout-08"
+    ],
+    "operational_area": {
+      "bounds": {
+        "lat_min": 30.85066,
+        "lat_max": 31.39174,
+        "lon_min": 114.44574,
+        "lon_max": 114.98682
+      }
+    }
+  },
+  {
+    "mission_request": "请求对乡村片区进行例行巡逻监控",
+    "available_uavs": [
+      "Bravo",
+      "Charlie"
+    ],
+    "operational_area": {
+      "bounds": {
+        "lat_min": 22.54805,
+        "lat_max": 22.55992,
+        "lon_min": 114.05183,
+        "lon_max": 114.0637
+      }
+    }
+  },
+  {
+    "mission_request": "派几架无人机去边界变电站那边转转，看看有没有啥异常。",
+    "available_uavs": [
+      "Eagle",
+      "Owl"
+    ],
+    "operational_area": {
+      "bounds": {
+        "lat_min": 30.59568,
+        "lat_max": 30.63409,
+        "lon_min": 114.2882,
+        "lon_max": 114.32661
+      }
+    }
+  },
+  {
+    "mission_request": "请求对乡村地带进行日常巡逻监控",
+    "available_uavs": [
+      "Hawk"
+    ],
+    "operational_area": {
+      "bounds": {
+        "lat_min": 36.01779,
+        "lat_max": 36.16009,
+        "lon_min": 120.39769,
+        "lon_max": 120.53999
+      }
+    }
+  },
+  {
+    "mission_request": "请求对片区公园进行例行巡检作业",
+    "available_uavs": [
+      "铁隼",
+      "铜雀"
+    ],
+    "operational_area": {
+      "bounds": {
+        "lat_min": 39.90019,
+        "lat_max": 39.90902,
+        "lon_min": 116.40311,
+        "lon_max": 116.41194
+      }
+    }
+  },
+  {
+    "mission_request": "去机场转一圈，看看有没有什么异常。",
+    "available_uavs": [
+      "Alpha",
+      "Beta"
+    ],
+    "operational_area": {
+      "bounds": {
+        "lat_min": 31.23104,
+        "lat_max": 31.23323,
+        "lon_min": 121.47443,
+        "lon_max": 121.47662
+      }
+    }
+  },
+  {
+    "mission_request": "去港口那边转一圈，看看有没有什么异常。",
+    "available_uavs": [
+      "Echo",
+      "Alpha"
+    ],
+    "operational_area": {
+      "bounds": {
+        "lat_min": 23.04198,
+        "lat_max": 23.06913,
+        "lon_min": 114.22069,
+        "lon_max": 114.24784
+      }
+    }
+  },
+  {
+    "mission_request": "请求对周边办公楼进行例行安全巡查",
+    "available_uavs": [
+      "Echo"
+    ],
+    "operational_area": {
+      "bounds": {
+        "lat_min": 30.59299,
+        "lat_max": 30.5953,
+        "lon_min": 114.3056,
+        "lon_max": 114.30791
+      }
+    }
+  },
+  {
+    "mission_request": "请求对机场周边空域及地面设施进行多维度协同巡逻监测",
+    "available_uavs": [
+      "Scout-06",
+      "Scout-07",
+      "Scout-08"
+    ],
+    "operational_area": {
+      "bounds": {
+        "lat_min": 22.49575,
+        "lat_max": 23.2557,
+        "lon_min": 113.74328,
+        "lon_max": 114.50323
+      }
+    }
+  },
+  {
+    "mission_request": "紧急请求对公园全域进行无人机集群立体巡逻，重点监测异常人员活动与突发安全事件。",
+    "available_uavs": [
+      "Bravo",
+      "Golf",
+      "Charlie",
+      "Hotel",
+      "Foxtrot"
+    ],
+    "operational_area": {
+      "bounds": {
+        "lat_min": 34.3379,
+        "lat_max": 34.35206,
+        "lon_min": 108.94532,
+        "lon_max": 108.95948
+      }
+    }
+  },
+  {
+    "mission_request": "去山丘那边转一圈，看看有没有什么结构问题。",
+    "available_uavs": [
+      "Scout-01",
+      "Scout-04",
+      "Scout-06",
+      "Scout-08"
+    ],
+    "operational_area": {
+      "bounds": {
+        "lat_min": 36.26681,
+        "lat_max": 37.19465,
+        "lon_min": 120.29131,
+        "lon_max": 121.21915
+      }
+    }
+  },
+  {
+    "mission_request": "去树林那边转一圈，看看有没有什么不对劲的地方。",
+    "available_uavs": [
+      "铜雀",
+      "云雀",
+      "雷鸟"
+    ],
+    "operational_area": {
+      "bounds": {
+        "lat_min": 31.24652,
+        "lat_max": 31.29245,
+        "lon_min": 121.46812,
+        "lon_max": 121.51405
+      }
+    }
+  },
+  {
+    "mission_request": "去工厂那边转一圈，看看建筑周围有没有啥不对劲的。",
+    "available_uavs": [
+      "Orange-Fire",
+      "Yellow-Sun"
+    ],
+    "operational_area": {
+      "bounds": {
+        "lat_min": 34.34418,
+        "lat_max": 34.35435,
+        "lon_min": 108.94071,
+        "lon_max": 108.95088
+      }
+    }
+  },
+  {
+    "mission_request": "赶紧去树林那边飞一圈，看看设施周围有没有异常。",
+    "available_uavs": [
+      "UAV-A1"
+    ],
+    "operational_area": {
+      "bounds": {
+        "lat_min": 34.35988,
+        "lat_max": 34.39817,
+        "lon_min": 108.9431,
+        "lon_max": 108.98139
+      }
+    }
+  },
+  {
+    "mission_request": "请求对目标机场进行快速定位与侦察。",
+    "available_uavs": [
+      "Beta",
+      "Delta",
+      "Zeta"
+    ],
+    "operational_area": {
+      "bounds": {
+        "lat_min": 22.60105,
+        "lat_max": 22.7492,
+        "lon_min": 114.03347,
+        "lon_max": 114.18162
+      }
+    }
+  },
+  {
+    "mission_request": "派几架无人机去变电站那边转一圈，看看结构有没有啥问题。",
+    "available_uavs": [
+      "Hotel",
+      "Golf"
+    ],
+    "operational_area": {
+      "bounds": {
+        "lat_min": 34.27039,
+        "lat_max": 34.5385,
+        "lon_min": 109.0033,
+        "lon_max": 109.27141
+      }
+    }
+  },
+  {
+    "mission_request": "去工厂那边转一圈，看看有没有啥异常。",
+    "available_uavs": [
+      "Hotel",
+      "Bravo",
+      "Charlie"
+    ],
+    "operational_area": {
+      "bounds": {
+        "lat_min": 39.91085,
+        "lat_max": 39.92539,
+        "lon_min": 116.40645,
+        "lon_max": 116.42099
+      }
+    }
+  },
+  {
+    "mission_request": "赶紧派无人机去那家工厂盯着，看看有没有可疑活动，情况有点急！",
+    "available_uavs": [
+      "Scout-01",
+      "Scout-03"
+    ],
+    "operational_area": {
+      "bounds": {
+        "lat_min": 29.54949,
+        "lat_max": 29.59427,
+        "lon_min": 106.54041,
+        "lon_max": 106.58519
+      }
+    }
+  },
+  {
+    "mission_request": "去机场周边转一圈，看看有没有什么异常。",
+    "available_uavs": [
+      "Gamma",
+      "Zeta",
+      "Eta"
+    ],
+    "operational_area": {
+      "bounds": {
+        "lat_min": 34.34194,
+        "lat_max": 34.3531,
+        "lon_min": 108.93755,
+        "lon_max": 108.94871
+      }
+    }
+  },
+  {
+    "mission_request": "赶紧派无人机群去那片灌木丛搜搜，可能有迷路的徒步者，动作快点！",
+    "available_uavs": [
+      "Alpha",
+      "Epsilon",
+      "Zeta",
+      "Delta",
+      "Gamma"
+    ],
+    "operational_area": {
+      "bounds": {
+        "lat_min": 31.21801,
+        "lat_max": 31.26511,
+        "lon_min": 121.4873,
+        "lon_max": 121.5344
+      }
+    }
+  },
+  {
+    "mission_request": "请求对山丘地形结构进行无人机集群巡检评估",
+    "available_uavs": [
+      "Alpha",
+      "Eta",
+      "Beta",
+      "Theta",
+      "Gamma"
+    ],
+    "operational_area": {
+      "bounds": {
+        "lat_min": 34.34001,
+        "lat_max": 34.34236,
+        "lon_min": 108.93949,
+        "lon_max": 108.94184
+      }
+    }
+  },
+  {
+    "mission_request": "去周边几个村子转一圈，看看有没有可疑情况。",
+    "available_uavs": [
+      "Bravo"
+    ],
+    "operational_area": {
+      "bounds": {
+        "lat_min": 31.22891,
+        "lat_max": 31.23961,
+        "lon_min": 121.4774,
+        "lon_max": 121.4881
+      }
+    }
+  },
+  {
+    "mission_request": "请求立即对港口周边区域进行紧急空中巡逻，排查可疑活动。",
+    "available_uavs": [
+      "Hotel",
+      "Golf"
+    ],
+    "operational_area": {
+      "bounds": {
+        "lat_min": 36.12452,
+        "lat_max": 36.38194,
+        "lon_min": 120.47775,
+        "lon_max": 120.73517
+      }
+    }
+  },
+  {
+    "mission_request": "请求对变电站周边进行安全巡逻监控",
+    "available_uavs": [
+      "Red-Wing"
+    ],
+    "operational_area": {
+      "bounds": {
+        "lat_min": 29.56205,
+        "lat_max": 29.5694,
+        "lon_min": 106.55329,
+        "lon_max": 106.56064
+      }
+    }
+  },
+  {
+    "mission_request": "去港口那边转一圈，看看有什么动静没。",
+    "available_uavs": [
+      "Scout-08"
+    ],
+    "operational_area": {
+      "bounds": {
+        "lat_min": 22.54375,
+        "lat_max": 22.54612,
+        "lon_min": 114.0564,
+        "lon_max": 114.05877
+      }
+    }
+  },
+  {
+    "mission_request": "赶紧让无人机去办公楼那边转一圈，看看设备有没有问题！",
+    "available_uavs": [
+      "Red-Wing",
+      "Yellow-Sun"
+    ],
+    "operational_area": {
+      "bounds": {
+        "lat_min": 39.81892,
+        "lat_max": 40.39585,
+        "lon_min": 116.58212,
+        "lon_max": 117.15905
+      }
+    }
+  },
+  {
+    "mission_request": "去那片灌木丛转转，看看有没有什么异常动静。",
+    "available_uavs": [
+      "云雀",
+      "雪鸮",
+      "铜雀",
+      "银雁"
+    ],
+    "operational_area": {
+      "bounds": {
+        "lat_min": 30.82091,
+        "lat_max": 31.43777,
+        "lon_min": 114.58846,
+        "lon_max": 115.20532
+      }
+    }
+  },
+  {
+    "mission_request": "请求对周边树林区域实施实时监控巡查。",
+    "available_uavs": [
+      "Falcon"
+    ],
+    "operational_area": {
+      "bounds": {
+        "lat_min": 30.81751,
+        "lat_max": 31.54281,
+        "lon_min": 113.98285,
+        "lon_max": 114.70815
+      }
+    }
+  },
+  {
+    "mission_request": "请求对目标区域变电站实施周期性空中监视作业",
+    "available_uavs": [
+      "Echo",
+      "Bravo"
+    ],
+    "operational_area": {
+      "bounds": {
+        "lat_min": 36.06071,
+        "lat_max": 36.07201,
+        "lon_min": 120.3805,
+        "lon_max": 120.3918
+      }
+    }
+  },
+  {
+    "mission_request": "赶紧派无人机群去港口把设备全扫一遍，重点查那些可疑角落，有异常立刻报！",
+    "available_uavs": [
+      "Scout-02",
+      "Scout-03",
+      "Scout-04",
+      "Scout-05"
+    ],
+    "operational_area": {
+      "bounds": {
+        "lat_min": 29.78502,
+        "lat_max": 30.4058,
+        "lon_min": 106.5246,
+        "lon_max": 107.14538
+      }
+    }
+  },
+  {
+    "mission_request": "赶紧派无人机去那片山丘搜一下，可能有驴友迷路了，抓紧时间！",
+    "available_uavs": [
+      "White-Snow",
+      "Purple-Cloud"
+    ],
+    "operational_area": {
+      "bounds": {
+        "lat_min": 31.20236,
+        "lat_max": 31.39638,
+        "lon_min": 121.45189,
+        "lon_max": 121.64591
+      }
+    }
+  },
+  {
+    "mission_request": "请求对灌木丛区域进行设施检测作业。",
+    "available_uavs": [
+      "Raven",
+      "Phoenix",
+      "Eagle"
+    ],
+    "operational_area": {
+      "bounds": {
+        "lat_min": 34.34177,
+        "lat_max": 34.34398,
+        "lon_min": 108.93962,
+        "lon_max": 108.94183
+      }
+    }
+  },
+  {
+    "mission_request": "赶紧派无人机去目标区域找找附近的电塔，动作快点！",
+    "available_uavs": [
+      "Raven",
+      "Swift",
+      "Condor"
+    ],
+    "operational_area": {
+      "bounds": {
+        "lat_min": 30.59234,
+        "lat_max": 30.59369,
+        "lon_min": 114.30462,
+        "lon_max": 114.30597
+      }
+    }
+  },
+  {
+    "mission_request": "请求对机场周边区域进行快速搜寻作业。",
+    "available_uavs": [
+      "White-Snow",
+      "Orange-Fire"
+    ],
+    "operational_area": {
+      "bounds": {
+        "lat_min": 29.5672,
+        "lat_max": 29.57868,
+        "lon_min": 106.55437,
+        "lon_max": 106.56585
+      }
+    }
+  },
+  {
+    "mission_request": "去机场周边转一圈，看看有没有什么异常。",
+    "available_uavs": [
+      "UAV-A6",
+      "UAV-A8"
+    ],
+    "operational_area": {
+      "bounds": {
+        "lat_min": 31.23549,
+        "lat_max": 31.25014,
+        "lon_min": 121.47941,
+        "lon_max": 121.49406
+      }
+    }
+  },
+  {
+    "mission_request": "去那片树林转一圈，看看有没有什么异常情况。",
+    "available_uavs": [
+      "云雀",
+      "雪鸮",
+      "雷鸟"
+    ],
+    "operational_area": {
+      "bounds": {
+        "lat_min": 29.563,
+        "lat_max": 29.56474,
+        "lon_min": 106.55109,
+        "lon_max": 106.55283
+      }
+    }
+  },
+  {
+    "mission_request": "请求对灌木丛区域进行高精度热成像巡逻，重点排查可疑热源与异常活动迹象。",
+    "available_uavs": [
+      "Raven",
+      "Eagle",
+      "Hawk",
+      "Falcon",
+      "Phoenix"
+    ],
+    "operational_area": {
+      "bounds": {
+        "lat_min": 22.54549,
+        "lat_max": 22.56964,
+        "lon_min": 114.069,
+        "lon_max": 114.09315
+      }
+    }
+  },
+  {
+    "mission_request": "急需对那里公园的设施设备进行快速检测与状态评估。",
+    "available_uavs": [
+      "Delta",
+      "Hotel",
+      "Alpha"
+    ],
+    "operational_area": {
+      "bounds": {
+        "lat_min": 39.9045,
+        "lat_max": 39.90737,
+        "lon_min": 116.40676,
+        "lon_max": 116.40963
+      }
+    }
+  },
+  {
+    "mission_request": "请求对港口区域进行多目标动态监控与异常行为识别",
+    "available_uavs": [
+      "Theta",
+      "Gamma",
+      "Beta"
+    ],
+    "operational_area": {
+      "bounds": {
+        "lat_min": 39.90478,
+        "lat_max": 39.90656,
+        "lon_min": 116.4065,
+        "lon_max": 116.40828
+      }
+    }
+  },
+  {
+    "mission_request": "去机场那边转一圈，看看设备有没有啥问题。",
+    "available_uavs": [
+      "Alpha",
+      "Beta",
+      "Eta",
+      "Zeta",
+      "Theta"
+    ],
+    "operational_area": {
+      "bounds": {
+        "lat_min": 39.89758,
+        "lat_max": 39.93018,
+        "lon_min": 116.41342,
+        "lon_max": 116.44602
+      }
+    }
+  },
+  {
+    "mission_request": "赶紧去工厂那边飞一圈，看看有没有什么异常情况！",
+    "available_uavs": [
+      "UAV-A8",
+      "UAV-A4"
+    ],
+    "operational_area": {
+      "bounds": {
+        "lat_min": 29.56613,
+        "lat_max": 29.59893,
+        "lon_min": 106.55891,
+        "lon_max": 106.59171
+      }
+    }
+  },
+  {
+    "mission_request": "赶紧派无人机去检查一下电塔有没有损坏，情况挺急的！",
+    "available_uavs": [
+      "UAV-A2"
+    ],
+    "operational_area": {
+      "bounds": {
+        "lat_min": 39.8953,
+        "lat_max": 39.9364,
+        "lon_min": 116.42352,
+        "lon_max": 116.46462
+      }
+    }
+  },
+  {
+    "mission_request": "请求对任务区域周边树林进行常规巡查监控",
+    "available_uavs": [
+      "UAV-A1",
+      "UAV-A5",
+      "UAV-A7"
+    ],
+    "operational_area": {
+      "bounds": {
+        "lat_min": 30.98878,
+        "lat_max": 31.82003,
+        "lon_min": 121.37755,
+        "lon_max": 122.2088
+      }
+    }
+  },
+  {
+    "mission_request": "帮忙在港口附近飞一圈，看看有没有什么异常情况。",
+    "available_uavs": [
+      "Scout-01",
+      "Scout-05",
+      "Scout-06",
+      "Scout-07"
+    ],
+    "operational_area": {
+      "bounds": {
+        "lat_min": 30.61252,
+        "lat_max": 30.72658,
+        "lon_min": 114.25169,
+        "lon_max": 114.36575
+      }
+    }
+  },
+  {
+    "mission_request": "去那片山丘转转，看看有没有什么异常。",
+    "available_uavs": [
+      "银雁",
+      "铁隼",
+      "铜雀"
+    ],
+    "operational_area": {
+      "bounds": {
+        "lat_min": 23.05226,
+        "lat_max": 23.09347,
+        "lon_min": 114.23085,
+        "lon_max": 114.27206
+      }
+    }
+  },
+  {
+    "mission_request": "请求对办公楼设备进行例行巡检",
+    "available_uavs": [
+      "UAV-A3"
+    ],
+    "operational_area": {
+      "bounds": {
+        "lat_min": 30.59256,
+        "lat_max": 30.59553,
+        "lon_min": 114.30472,
+        "lon_max": 114.30769
+      }
+    }
+  },
+  {
+    "mission_request": "请求对变电站结构进行快速巡检评估",
+    "available_uavs": [
+      "Eagle"
+    ],
+    "operational_area": {
+      "bounds": {
+        "lat_min": 34.46952,
+        "lat_max": 34.99603,
+        "lon_min": 108.96713,
+        "lon_max": 109.49364
+      }
+    }
+  },
+  {
+    "mission_request": "请求对指定区域山丘进行地形勘察作业",
+    "available_uavs": [
+      "Raven",
+      "Falcon",
+      "Swift"
+    ],
+    "operational_area": {
+      "bounds": {
+        "lat_min": 34.32672,
+        "lat_max": 34.35991,
+        "lon_min": 108.95399,
+        "lon_max": 108.98718
+      }
+    }
+  },
+  {
+    "mission_request": "去公园那边转一圈，看看有没有什么异常。",
+    "available_uavs": [
+      "Scout-02"
+    ],
+    "operational_area": {
+      "bounds": {
+        "lat_min": 36.08958,
+        "lat_max": 36.27828,
+        "lon_min": 120.43694,
+        "lon_max": 120.62564
+      }
+    }
+  },
+  {
+    "mission_request": "请求对机场周边区域进行常态化无人机集群监控作业",
+    "available_uavs": [
+      "Bravo",
+      "Echo"
+    ],
+    "operational_area": {
+      "bounds": {
+        "lat_min": 30.59317,
+        "lat_max": 30.59453,
+        "lon_min": 114.30562,
+        "lon_max": 114.30698
+      }
+    }
+  },
+  {
+    "mission_request": "请求立即对目标地带工厂实施高密度无人机集群监视，实时追踪异常活动并反馈关键数据。",
+    "available_uavs": [
+      "Eta",
+      "Epsilon",
+      "Gamma"
+    ],
+    "operational_area": {
+      "bounds": {
+        "lat_min": 34.33556,
+        "lat_max": 34.34864,
+        "lon_min": 108.93629,
+        "lon_max": 108.94937
+      }
+    }
+  },
+  {
+    "mission_request": "去工厂那边转一圈，看看有没有什么异常。",
+    "available_uavs": [
+      "UAV-A2",
+      "UAV-A4"
+    ],
+    "operational_area": {
+      "bounds": {
+        "lat_min": 39.92556,
+        "lat_max": 40.19205,
+        "lon_min": 116.3825,
+        "lon_max": 116.64899
+      }
+    }
+  },
+  {
+    "mission_request": "去村里转一圈，看看有没有啥异常情况。",
+    "available_uavs": [
+      "Condor"
+    ],
+    "operational_area": {
+      "bounds": {
+        "lat_min": 39.9054,
+        "lat_max": 39.91363,
+        "lon_min": 116.40367,
+        "lon_max": 116.4119
+      }
+    }
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "type": "urban",
+  "scenario": "scenario_5",
+  "goal": {
+    "id": "g16",
+    "description": "将所有 cargo 运送到 power_station",
+    "target": {
+      "category": "prop",
+      "type": "cargo"
+    },
+    "success_condition": {
+      "field": "location",
+      "operator": "EQ",
+      "value": {
+        "category": "building",
+        "type": "power_station"
+      }
+    },
+    "quantifier": "FORALL"
+  }
+}

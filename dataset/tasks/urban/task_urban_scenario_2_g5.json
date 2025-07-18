@@ -1,0 +1,18 @@
+{
+  "type": "urban",
+  "scenario": "scenario_2",
+  "goal": {
+    "id": "g5",
+    "description": "对 shopping_mall 进行巡逻并拍照",
+    "target": {
+      "category": "building",
+      "type": "shopping_mall"
+    },
+    "success_condition": {
+      "field": "photo_captured",
+      "operator": "EQ",
+      "value": true
+    },
+    "quantifier": "EXISTS"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "urban",
+  "scenario": "scenario_2",
+  "goal": {
+    "id": "g7",
+    "description": "对 parking_lot 中的所有车辆拍照",
+    "target": {
+      "category": "prop",
+      "type": "car",
+      "parked_at": {
+        "category": "building",
+        "type": "parking_lot"
+      }
+    },
+    "success_condition": {
+      "field": "photo_captured",
+      "operator": "EQ",
+      "value": true
+    },
+    "quantifier": "FORALL"
+  }
+}

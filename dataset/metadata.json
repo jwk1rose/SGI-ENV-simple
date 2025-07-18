@@ -1,0 +1,8 @@
+{
+  "name": "SGI: Swarm General Intelligence Dataset",
+  "version": "1.0.0",
+  "author": "Windy Lab",
+  "license": "MIT",
+  "description": "A benchmark dataset for validating swarm general intelligence.",
+  "date_created": "2025-07-02"
+}

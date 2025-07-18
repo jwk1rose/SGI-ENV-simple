@@ -1,0 +1,18 @@
+"api_base": {
+  "GPT": "https://vip.DMXapi.com/v1",
+  "VLM": "https://xiaoai.plus/v1",
+  "QWEN": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+}
+"api_key": {
+  "GPT": "sk-kImrtrwjH6FXbeGGU6x2Wxhl864HsqhxlICupJhu4DJqXdhc",
+  "VLM": "sk-5mU8poYeiI4bydH492B59125206344598312600438205f65",
+  "QWEN": "sk-99f55920b8834f6f8c1e78f8d3691c26",
+  "CLAUDE": "input your claude api here"
+}
+"model": {
+  "VLM": "gpt-4o",
+  # "GPT": "o1-mini", # o1-mini, gpt-4o-mini, o1-preview, qwen2.5-math-72b-instruct, gemini-2.0-flash, gemini-2.5-flash-preview-04-17-thinking, gpt-4o-mini-2024-07-18
+  "GPT": "gemini-2.5-pro-preview-05-06", # gemini-2.5-pro-preview-05-06
+  "QWEN": "qwen-vl-plus",
+  "CLAUDE": "input the claude model here"
+}

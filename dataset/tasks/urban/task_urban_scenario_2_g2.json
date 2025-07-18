@@ -1,0 +1,19 @@
+{
+  "type": "urban",
+  "scenario": "scenario_2",
+  "goal": {
+    "id": "g2",
+    "description": "找到车牌号为 00002 的卡车",
+    "target": {
+      "category": "prop",
+      "type": "truck",
+      "license_plate": "00002"
+    },
+    "success_condition": {
+      "field": "status",
+      "operator": "EQ",
+      "value": "discovered"
+    },
+    "quantifier": "EXISTS"
+  }
+}

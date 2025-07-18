@@ -1,0 +1,21 @@
+{
+  "type": "urban",
+  "scenario": "scenario_4",
+  "goal": {
+    "id": "g14",
+    "description": "将 truck 运送到 hospital",
+    "target": {
+      "category": "prop",
+      "type": "truck"
+    },
+    "success_condition": {
+      "field": "location",
+      "operator": "EQ",
+      "value": {
+        "category": "building",
+        "type": "hospital"
+      }
+    },
+    "quantifier": "EXISTS"
+  }
+}

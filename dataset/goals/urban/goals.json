@@ -1,0 +1,317 @@
+[
+  {
+    "id": "g1",
+    "description": "找到车牌号为 00001 的小轿车",
+    "target": {
+      "category": "prop",
+      "type": "car",
+      "license_plate": "00001"
+    },
+    "success_condition": {
+      "field": "status",
+      "operator": "EQ",
+      "value": "discovered"
+    },
+    "quantifier": "EXISTS"
+  },
+  {
+    "id": "g2",
+    "description": "找到车牌号为 00002 的卡车",
+    "target": {
+      "category": "prop",
+      "type": "truck",
+      "license_plate": "00002"
+    },
+    "success_condition": {
+      "field": "status",
+      "operator": "EQ",
+      "value": "discovered"
+    },
+    "quantifier": "EXISTS"
+  },
+  {
+    "id": "g3",
+    "description": "对 hospital 进行航拍",
+    "target": {
+      "category": "building",
+      "type": "hospital"
+    },
+    "success_condition": {
+      "field": "photo_captured",
+      "operator": "EQ",
+      "value": true
+    },
+    "quantifier": "EXISTS"
+  },
+  {
+    "id": "g4",
+    "description": "对 power_station 进行故障检测",
+    "target": {
+      "category": "prop",
+      "type": "equipment_failure"
+    },
+    "success_condition": {
+      "field": "status",
+      "operator": "EQ",
+      "value": "discovered"
+    },
+    "quantifier": "EXISTS"
+  },
+  {
+    "id": "g5",
+    "description": "对 shopping_mall 进行巡逻并拍照",
+    "target": {
+      "category": "building",
+      "type": "shopping_mall"
+    },
+    "success_condition": {
+      "field": "photo_captured",
+      "operator": "EQ",
+      "value": true
+    },
+    "quantifier": "EXISTS"
+  },
+  {
+    "id": "g6",
+    "description": "对 park 进行环境监测，检测安全漏洞",
+    "target": {
+      "category": "prop",
+      "type": "security_breach"
+    },
+    "success_condition": {
+      "field": "status",
+      "operator": "EQ",
+      "value": "discovered"
+    },
+    "quantifier": "EXISTS"
+  },
+  {
+    "id": "g7",
+    "description": "对 parking_lot 中的所有车辆拍照",
+    "target": {
+      "category": "prop",
+      "type": "car",
+      "parked_at": {
+        "category": "building",
+        "type": "parking_lot"
+      }
+    },
+    "success_condition": {
+      "field": "photo_captured",
+      "operator": "EQ",
+      "value": true
+    },
+    "quantifier": "FORALL"
+  },
+  {
+    "id": "g8",
+    "description": "将所有 cargo 运送到 robot_base",
+    "target": {
+      "category": "prop",
+      "type": "cargo"
+    },
+    "success_condition": {
+      "field": "location",
+      "operator": "EQ",
+      "value": {
+        "category": "building",
+        "type": "robot_base"
+      }
+    },
+    "quantifier": "FORALL"
+  },
+  {
+    "id": "g9",
+    "description": "对 residential_building 进行外观拍照",
+    "target": {
+      "category": "building",
+      "type": "residential_building"
+    },
+    "success_condition": {
+      "field": "photo_captured",
+      "operator": "EQ",
+      "value": true
+    },
+    "quantifier": "EXISTS"
+  },
+  {
+    "id": "g10",
+    "description": "监测 hospital 的所有设备故障",
+    "target": {
+      "category": "prop",
+      "type": "equipment_failure",
+      "located_at": {
+        "category": "building",
+        "type": "hospital"
+      }
+    },
+    "success_condition": {
+      "field": "status",
+      "operator": "EQ",
+      "value": "discovered"
+    },
+    "quantifier": "FORALL"
+  },
+  {
+    "id": "g11",
+    "description": "对所有 truck 进行拍照",
+    "target": {
+      "category": "prop",
+      "type": "truck"
+    },
+    "success_condition": {
+      "field": "photo_captured",
+      "operator": "EQ",
+      "value": true
+    },
+    "quantifier": "FORALL"
+  },
+  {
+    "id": "g12",
+    "description": "将所有 cargo 运送到 parking_lot",
+    "target": {
+      "category": "prop",
+      "type": "cargo"
+    },
+    "success_condition": {
+      "field": "location",
+      "operator": "EQ",
+      "value": {
+        "category": "building",
+        "type": "parking_lot"
+      }
+    },
+    "quantifier": "FORALL"
+  },
+  {
+    "id": "g13",
+    "description": "对 shopping_mall 上的安全漏洞进行拍照",
+    "target": {
+      "category": "prop",
+      "type": "security_breach",
+      "located_at": {
+        "category": "building",
+        "type": "shopping_mall"
+      }
+    },
+    "success_condition": {
+      "field": "photo_captured",
+      "operator": "EQ",
+      "value": true
+    },
+    "quantifier": "FORALL"
+  },
+  {
+    "id": "g14",
+    "description": "将 truck 运送到 hospital",
+    "target": {
+      "category": "prop",
+      "type": "truck"
+    },
+    "success_condition": {
+      "field": "location",
+      "operator": "EQ",
+      "value": {
+        "category": "building",
+        "type": "hospital"
+      }
+    },
+    "quantifier": "EXISTS"
+  },
+  {
+    "id": "g15",
+    "description": "对 residential_building 进行安全检查",
+    "target": {
+      "category": "prop",
+      "type": "security_breach",
+      "located_at": {
+        "category": "building",
+        "type": "residential_building"
+      }
+    },
+    "success_condition": {
+      "field": "status",
+      "operator": "EQ",
+      "value": "discovered"
+    },
+    "quantifier": "FORALL"
+  },
+  {
+    "id": "g16",
+    "description": "将所有 cargo 运送到 power_station",
+    "target": {
+      "category": "prop",
+      "type": "cargo"
+    },
+    "success_condition": {
+      "field": "location",
+      "operator": "EQ",
+      "value": {
+        "category": "building",
+        "type": "power_station"
+      }
+    },
+    "quantifier": "FORALL"
+  },
+  {
+    "id": "g17",
+    "description": "对 power_station 进行航拍",
+    "target": {
+      "category": "building",
+      "type": "power_station"
+    },
+    "success_condition": {
+      "field": "photo_captured",
+      "operator": "EQ",
+      "value": true
+    },
+    "quantifier": "EXISTS"
+  },
+  {
+    "id": "g18",
+    "description": "检测 parking_lot 中的所有安全漏洞",
+    "target": {
+      "category": "prop",
+      "type": "security_breach",
+      "located_at": {
+        "category": "building",
+        "type": "parking_lot"
+      }
+    },
+    "success_condition": {
+      "field": "status",
+      "operator": "EQ",
+      "value": "discovered"
+    },
+    "quantifier": "FORALL"
+  },
+  {
+    "id": "g19",
+    "description": "对 robot_base 进行拍照",
+    "target": {
+      "category": "building",
+      "type": "robot_base"
+    },
+    "success_condition": {
+      "field": "photo_captured",
+      "operator": "EQ",
+      "value": true
+    },
+    "quantifier": "EXISTS"
+  },
+  {
+    "id": "g20",
+    "description": "对车牌号为 00001 的小轿车进行拍照",
+    "target": {
+      "category": "prop",
+      "type": "car",
+      "license_plate": "00001"
+    },
+    "success_condition": {
+      "field": "photo_captured",
+      "operator": "EQ",
+      "value": true
+    },
+    "quantifier": "EXISTS"
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "type": "urban",
+  "scenario": "scenario_4",
+  "goal": {
+    "id": "g6",
+    "description": "对 park 进行环境监测，检测安全漏洞",
+    "target": {
+      "category": "prop",
+      "type": "security_breach"
+    },
+    "success_condition": {
+      "field": "status",
+      "operator": "EQ",
+      "value": "discovered"
+    },
+    "quantifier": "EXISTS"
+  }
+}

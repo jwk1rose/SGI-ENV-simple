@@ -1,0 +1,19 @@
+{
+  "type": "urban",
+  "scenario": "scenario_1",
+  "goal": {
+    "id": "g20",
+    "description": "对车牌号为 00001 的小轿车进行拍照",
+    "target": {
+      "category": "prop",
+      "type": "car",
+      "license_plate": "00001"
+    },
+    "success_condition": {
+      "field": "photo_captured",
+      "operator": "EQ",
+      "value": true
+    },
+    "quantifier": "EXISTS"
+  }
+}

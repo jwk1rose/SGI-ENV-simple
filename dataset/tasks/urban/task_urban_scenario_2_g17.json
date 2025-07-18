@@ -1,0 +1,18 @@
+{
+  "type": "urban",
+  "scenario": "scenario_2",
+  "goal": {
+    "id": "g17",
+    "description": "对 power_station 进行航拍",
+    "target": {
+      "category": "building",
+      "type": "power_station"
+    },
+    "success_condition": {
+      "field": "photo_captured",
+      "operator": "EQ",
+      "value": true
+    },
+    "quantifier": "EXISTS"
+  }
+}

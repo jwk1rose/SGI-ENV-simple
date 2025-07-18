@@ -1,0 +1,21 @@
+{
+  "type": "urban",
+  "scenario": "scenario_3",
+  "goal": {
+    "id": "g8",
+    "description": "将所有 cargo 运送到 robot_base",
+    "target": {
+      "category": "prop",
+      "type": "cargo"
+    },
+    "success_condition": {
+      "field": "location",
+      "operator": "EQ",
+      "value": {
+        "category": "building",
+        "type": "robot_base"
+      }
+    },
+    "quantifier": "FORALL"
+  }
+}
